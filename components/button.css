@@ -1,0 +1,36 @@
+#button-card-answer {
+    /* Estilo del botón */
+    background-color: tomato;
+    color: white;
+    border-bottom: 2px ;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px; /* Ajusta el margen según tus preferencias */
+    /* Otros estilos personalizados */
+    /* Agrega aquí cualquier otro estilo que desees */
+}
+
+#button-card-answer-option {
+    background-color: papayawhip;
+    
+}
+
+#button-card-hide {
+    /* Estilo del botón */
+    background-color: tomato;
+    color: white;
+    border-bottom: 2px ;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px; /* Ajusta el margen según tus preferencias */
+    /* Otros estilos personalizados */
+    /* Agrega aquí cualquier otro estilo que desees */
+}
+
+buttons {
+    background-color: black;
+    
+    
+}

@@ -1,0 +1,27 @@
+
+.card {
+  background-color: rgb(201, 238, 225);
+  border: 5px solid #da2727;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+img {
+  justify-items: right;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+

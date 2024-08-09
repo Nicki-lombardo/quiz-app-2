@@ -1,0 +1,75 @@
+
+/* Estilos para iPhone 15 y 15 Pro */
+@media only screen and (width: 393px) and (height: 852px) and (-webkit-device-pixel-ratio: 3) {
+    
+}
+
+
+
+:root {
+    --aquamarine: aquamarine;
+    --tomato: tomato;
+    --hotpink: hotpink;
+    --blueviolet: blueviolet;
+    --skyblue: skyblue;
+  }
+  
+  
+  
+  body {
+    min-height: 100vh;
+    background: var(--aquamarine);
+  }
+
+ 
+
+.main-header {
+    position: relative;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    padding: 10px;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato; 
+    text-align: center; 
+    color: yellow; 
+    font-size: 16px;
+}
+
+
+.question-card {
+    padding: 10%;
+    margin: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato; /* Cambia el color a tu preferencia */
+    padding: 10px; /* Añade espaciado interno si lo deseas */
+    text-align: center; /* Centra el contenido del encabezado */
+    color: black; /* Cambia el color del texto */
+    
+}
+
+.main-footer {
+  display: flexbox;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center; /* Para centrar los elementos dentro del footer */
+  background-color: tomato; /* Cambia esto al color deseado */
+  /* Otros estilos que desees aplicar al footer */
+}
+
+
+img {
+  width: 40px;
+  height: auto;
+  
+}
+
+.footer-nav img {
+  margin: 10px; /* Adjust the value as needed */
+}
+
