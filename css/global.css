@@ -16,7 +16,7 @@
   
   
   
-  body {
+body {
     min-height: 100vh;
     background: var(--aquamarine);
   }
@@ -24,7 +24,7 @@
  
 
 .main-header {
-    position: relative;
+    align-items: center;
     top:0%;
     left: 0%;
     width: 100%;
@@ -37,6 +37,31 @@
     color: yellow; 
     font-size: 16px;
 }
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+
+.question-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 
 .question-card {
@@ -71,5 +96,14 @@ img {
 
 .footer-nav img {
   margin: 10px; /* Adjust the value as needed */
+}
+
+.bookmark-icon {
+  cursor: pointer;
+  transition: filter 0.3s ease; /* Añade una transición suave */
+}
+
+.bookmark-icon.bookmarked {
+  filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(180deg) brightness(1.5); /* Cambia el color del icono a aquamarino */
 }
 
