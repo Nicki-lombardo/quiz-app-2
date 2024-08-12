@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Question</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./components/card.css">
+    <link rel="stylesheet" href="./components/button.css">
+</head>
+
+  <title>Add Question</title>
+</head>
+<body>
+  <h1>Add a New Question</h1>
+  <form action="submit_question.php" method="post">
+    <label for="question">Your question:</label><br>
+    <textarea id="question" name="question" rows="4" cols="50"></textarea><br><br>
+
+    <label for="answer">Your answer:</label><br>
+    <textarea id="answer" name="answer" rows="4" cols="50"></textarea><br><br>
+
+    <label for="tag">Tag:</label><br>
+    <input type="text" id="tag" name="tag"><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <script src="form.js"></script>
+</body>
+
+<footer class="main-footer">
+    <nav class="footer-nav">
+      <a href="./index.html"><img class="credit-icon" src="./resources/home.png" alt="Home"></a>
+      <a href="./bookmark_page.html"><img class="credit-icon" src="./resources/bookmark_transparent.png" alt="bookmark"></a>
+      <a href="./form.html"><img class="credit-icon" src= "./resources/question.png" alt="form"></a>
+      <a href="./profile_page.html"><img class="credit-icon" src="./resources/profile.png" alt="Profil"></a>
+    </nav>
+  </footer>
+  
+</html>
